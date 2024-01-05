@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bignerdranch.android:expandablerecyclerview:3.0.0-RC1@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9da8ce958154fe93a67809fc3d22015c/jetified-expandablerecyclerview-3.0.0-RC1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9da8ce958154fe93a67809fc3d22015c/jetified-expandablerecyclerview-3.0.0-RC1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9da8ce958154fe93a67809fc3d22015c/jetified-expandablerecyclerview-3.0.0-RC1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bignerdranch.android/expandablerecyclerview/3.0.0-RC1/6f1a681538bc6eb1beaed8ac5929283075b6df29/expandablerecyclerview-3.0.0-RC1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bignerdranch.android/expandablerecyclerview/3.0.0-RC1/57c720e95452db3a7e406748e8a583fe32e970b/expandablerecyclerview-3.0.0-RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

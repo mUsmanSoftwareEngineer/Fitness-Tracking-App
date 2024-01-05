@@ -1,0 +1,105 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+//apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        applicationId "com.ninetynineapps.femalestretchingexercises1"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 5
+        versionName "1.8"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        android.applicationVariants.all { variant ->
+            variant.outputs.all {
+                outputFileName = "Stretching-Exercises-${variant.name}-${variant.versionCode}-${variant.versionName}.apk"
+            }
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.6'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.1'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.google.firebase:firebase-messaging:21.1.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.3'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    implementation "com.mikepenz:materialdrawer:6.1.2"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+    testImplementation 'com.squareup.retrofit2:retrofit-mock:2.3.0'
+
+    implementation 'com.bignerdranch.android:expandablerecyclerview:3.0.0-RC1'
+
+    implementation 'com.shawnlin:number-picker:2.4.9'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation project(":MPChartLib")
+    implementation project(":horizontal-picker")
+
+    implementation 'com.drakeet.multitype:multitype:4.2.0'
+
+    implementation "androidx.preference:preference-ktx:1.1.1"
+
+    implementation "com.android.billingclient:billing-ktx:$billing_version"
+    implementation 'com.google.android.gms:play-services-ads:20.3.0'
+    implementation 'com.facebook.android:audience-network-sdk:6.2.1'
+    implementation 'com.facebook.android:audience-network-sdk:5.0.1'
+    implementation 'androidx.work:work-runtime-ktx:2.7.1'
+}
+

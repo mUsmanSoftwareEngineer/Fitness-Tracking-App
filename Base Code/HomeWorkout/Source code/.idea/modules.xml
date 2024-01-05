@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Source_code.iml" filepath="$PROJECT_DIR$/.idea/modules/Source_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/MPChartLib/Source_code.MPChartLib.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Source_code.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Source_code.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Source_code.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Source_code.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Source_code.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Source_code.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Source_code.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Source_code.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/horizontal-picker/Source_code.horizontal-picker.unitTest.iml" />
+    </modules>
+  </component>
+</project>
